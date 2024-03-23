@@ -1,0 +1,113 @@
+settings:
+  # Should Oraxen automatically generate sounds.json according to your settings?
+  automatically_generate: true
+sounds:
+  # welcome:
+  #   category: record
+  #   sound: welcome.ogg # extension is not mandatory
+  block:
+    wood:
+      step: # Required for custom sounds
+        replace: true
+      place:
+        replace: true
+      break:
+        replace: true
+      fall:
+        replace: true
+      hit:
+        replace: true
+    stone:
+      step: # Required for custom furniture sounds
+        replace: true
+      place:
+        replace: true
+      break:
+        replace: true
+      fall:
+        replace: true
+      hit:
+        replace: true
+  required:
+    wood:
+      hit: # Required for custom sounds
+        subtitle: subtitles.block.generic.hit
+        sounds:
+        - step/wood1
+        - step/wood2
+        - step/wood3
+        - step/wood4
+        - step/wood5
+        - step/wood6
+      place:
+        subtitle: subtitles.block.generic.place
+        sounds:
+        - dig/wood1
+        - dig/wood2
+        - dig/wood3
+        - dig/wood4
+      break:
+        subtitle: subtitles.block.generic.break
+        sounds:
+        - dig/wood1
+        - dig/wood2
+        - dig/wood3
+        - dig/wood4
+      step:
+        subtitle: subtitles.block.generic.footsteps
+        sounds:
+        - step/wood1
+        - step/wood2
+        - step/wood3
+        - step/wood4
+        - step/wood5
+        - step/wood6
+      fall:
+        sounds:
+        - step/wood1
+        - step/wood2
+        - step/wood3
+        - step/wood4
+        - step/wood5
+        - step/wood6
+    stone:
+      hit: # Required for custom furniture sounds
+        subtitle: subtitles.block.generic.hit
+        sounds:
+        - step/stone1
+        - step/stone2
+        - step/stone3
+        - step/stone4
+        - step/stone5
+        - step/stone6
+      place:
+        subtitle: subtitles.block.generic.place
+        sounds:
+        - dig/stone1
+        - dig/stone2
+        - dig/stone3
+        - dig/stone4
+      break:
+        subtitle: subtitles.block.generic.break
+        sounds:
+        - dig/stone1
+        - dig/stone2
+        - dig/stone3
+        - dig/stone4
+      step:
+        subtitle: subtitles.block.generic.footsteps
+        sounds:
+        - step/stone1
+        - step/stone2
+        - step/stone3
+        - step/stone4
+        - step/stone5
+        - step/stone6
+      fall:
+        sounds:
+        - step/stone1
+        - step/stone2
+        - step/stone3
+        - step/stone4
+        - step/stone5
+        - step/stone6

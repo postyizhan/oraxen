@@ -1,0 +1,9 @@
+yizhan_ico:
+  displayname: '驿站头像'
+  material: paper
+  Pack:
+    generate_model: true
+    parent_model: item/generated
+    textures:
+    - yizhan/yizhan.png
+    custom_model_data: 10401
